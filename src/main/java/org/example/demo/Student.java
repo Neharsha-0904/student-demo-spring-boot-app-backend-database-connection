@@ -12,7 +12,7 @@ public class Student {
 
     @Column(nullable = false) // name cannot be null
     private String name;
-
+    System.out.println("HI");
     @Column(nullable = false)
     private String course;
 
@@ -33,3 +33,4 @@ public class Student {
     public String getCourse() { return course; }
     public void setCourse(String course) { this.course = course; }
 }
+
